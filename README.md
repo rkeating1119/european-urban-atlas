@@ -2,18 +2,20 @@
 
 [Open the live atlas](https://rkeating1119.github.io/european-urban-atlas/)
 
-Explore 161 cities across Spain (60), France (51) and Italy (50). Each city has a short opening, a general geographic overview and ten sections covering architecture, neighborhoods, work, housing, history, culture, food, transport, weather and atmosphere. Comparisons include seven explained editorial ratings and short descriptions of architecture, food and neighborhoods.
+A saved English and Spanish atlas of 417 cities across ten countries: Spain (60), France (51), Italy (50), United Kingdom (50), Ireland (25), Germany (50), Switzerland (30), Greece (35), Norway (31) and Sweden (35). There are 123 regional pages. City articles have a short opening, general overview and 15 sections covering geography, architecture, history, work, housing, neighborhoods, culture, food, transport, weather, education, politics, LGBTQ+ life and everyday society.
 
-The maps use zoom-scaled city dots, permanent labels for the ten largest featured municipalities per country, and hover/tap cards for other places. Searchable menus open inside the site. All regions are represented. The public site runs on GitHub Pages independently of a local server or open chat.
+Maps distinguish city dots from clickable region names. Country menus open inside the site, city lists scroll horizontally, and return links restore the prior map view. Language and optional sound controls are included. Comparisons have seven explained editorial ratings and further qualitative descriptions.
+
+Release `33e920cbab96` is live on GitHub Pages. Deployment run 42508762817 succeeded, the public archive checksum matches the tested build, and 49 public page/asset samples passed. The site does not depend on a local server or an open browser tab.
 
 ## Saved files
 
-- `atlas-site.zip`: the validated static website. Updating it on main triggers the saved Pages deployment workflow.
-- `atlas-source.zip`: maintained source, editorial content, packaged geography, build scripts, audit records and continuation instructions. Unzip it and start with its README.md and RELEASE-REPORT.md. The original private commission attachment and historical screenshots are retained locally rather than published in this archive.
-- `.github/workflows/pages.yml`: the permanent publication workflow.
+- `atlas-site.zip`: complete validated static website. Updating this file on main triggers the permanent Pages workflow.
+- `atlas-source.zip`: maintained source, saved English/Spanish content, packaged geography, build scripts and final audit/continuation instructions. Unzip and read README.md, PROJECT-STATUS.md and RELEASE-REPORT.md. Original task attachment and historical screenshots remain in local Git history.
+- `.github/workflows/pages.yml`: established permanent publication workflow.
 
-The current audit passed for all 161 articles and 291 HTML pages, including 8,205 internal targets and 2,498 section links. All 538 source URLs were requested; inaccessible sources are recorded honestly. The reader prose now contains 135,102 words, about 55,300 more than the previous edition. Public menus, map, city reading and phone comparisons were checked after deployment. Ratings are explained editorial judgments, and population figures retain their dates.
+The strict build and reader audit pass for all 417 profiles and 1,112 routes. All 18,963 prose fields are present in both languages. The final source sweep covers 2,425 URLs; blocked/transient sources and missing comparable population values are documented honestly. Scores are qualitative editorial judgments, not measured rankings.
 
-## Build
+## Continue development
 
-Inside the extracted source folder, install locked dependencies with pnpm, then run `pnpm build` and `pnpm test`. The project uses Python 3.13+, Node 22+ and pnpm 11. The enclosed README.md explains publishing and source attribution. Keep the `/european-urban-atlas` project path for this host.
+Install the locked dependencies with pnpm and use `pnpm build` and `pnpm test`. Requires Python 3.13+, Node 22+ and pnpm 11. Normal builds use saved JSON; translation models are optional and are not required. Keep the `/european-urban-atlas` base path for this host. The enclosed README.md explains content maintenance, attribution and the authorized publishing flow.
