@@ -2,18 +2,18 @@
 
 [Open the live atlas](https://rkeating1119.github.io/european-urban-atlas/)
 
-A curated atlas of 161 cities across Spain (60), France (51) and Italy (50). Each city has a short summary and sections on neighborhoods, work, housing, history, culture, food, transport and weather. Compare places with seven explained editorial ratings. All regions are represented; country maps label their principal cities immediately.
+Explore 161 cities across Spain (60), France (51) and Italy (50). Each city has a short opening, a general geographic overview and ten sections covering architecture, neighborhoods, work, housing, history, culture, food, transport, weather and atmosphere. Comparisons include seven explained editorial ratings and short descriptions of architecture, food and neighborhoods.
 
-The public site runs on GitHub Pages and does not depend on a local server or an open chat.
+The maps use zoom-scaled city dots, permanent labels for the ten largest featured municipalities per country, and hover/tap cards for other places. Searchable menus open inside the site. All regions are represented. The public site runs on GitHub Pages independently of a local server or open chat.
 
 ## Saved files
 
-- `atlas-site.zip`: the validated static website. Updating this file on main triggers the permanent Pages deployment workflow.
-- `atlas-source.zip`: the maintained source, editorial content, packaged geography, build scripts, audit records and continuation instructions. Unzip it and start with the enclosed README.md and RELEASE-REPORT.md. The original task attachment and historical screenshots are retained locally rather than published in this archive.
-- `.github/workflows/pages.yml`: the saved publication workflow.
+- `atlas-site.zip`: the validated static website. Updating it on main triggers the saved Pages deployment workflow.
+- `atlas-source.zip`: maintained source, editorial content, packaged geography, build scripts, audit records and continuation instructions. Unzip it and start with its README.md and RELEASE-REPORT.md. The original private commission attachment and historical screenshots are retained locally rather than published in this archive.
+- `.github/workflows/pages.yml`: the permanent publication workflow.
 
-The reader audit passed for all 161 profiles, 57 regional jurisdictions, 291 HTML pages, 7,984 internal targets and 2,277 fragment links. Public navigation, city pages, maps and comparisons were checked at desktop, tablet and phone viewport sizes. Ratings are editorial judgments with explanations; population figures retain their dates.
+The current audit passed for all 161 articles and 291 HTML pages, including 8,205 internal targets and 2,498 section links. All 538 source URLs were requested; inaccessible sources are recorded honestly. The reader prose now contains 135,102 words, about 55,300 more than the previous edition. Public menus, map, city reading and phone comparisons were checked after deployment. Ratings are explained editorial judgments, and population figures retain their dates.
 
 ## Build
 
-Inside the extracted source folder, install the locked dependencies with pnpm, then run `pnpm build` and `pnpm test`. Python 3.13+, Node 22+ and pnpm 11 are used. Publication instructions and source attribution are in the enclosed README.md. Keep the `/european-urban-atlas` project path when rebuilding for this host.
+Inside the extracted source folder, install locked dependencies with pnpm, then run `pnpm build` and `pnpm test`. The project uses Python 3.13+, Node 22+ and pnpm 11. The enclosed README.md explains publishing and source attribution. Keep the `/european-urban-atlas` project path for this host.
