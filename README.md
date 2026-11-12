@@ -1,21 +1,15 @@
 # European Urban Atlas
 
-[Open the live atlas](https://rkeating1119.github.io/european-urban-atlas/)
+[Open the live atlas](https://rkeating1119.github.io/european-urban-atlas/) · [Languages and accents](https://rkeating1119.github.io/european-urban-atlas/listen/)
 
-A saved English and Spanish atlas of 417 cities across ten countries: Spain (60), France (51), Italy (50), United Kingdom (50), Ireland (25), Germany (50), Switzerland (30), Greece (35), Norway (31) and Sweden (35). There are 123 regional pages. City articles have a short opening, general overview and 15 sections covering geography, architecture, history, work, housing, neighborhoods, culture, food, transport, weather, education, politics, LGBTQ+ life and everyday society.
+A saved English and Spanish atlas of 417 cities across ten European countries, with maps, architecture, neighbourhoods, history and everyday urban life.
 
-Maps distinguish city dots from clickable region names. Country menus open inside the site, city lists scroll horizontally, and return links restore the prior map view. Language and optional sound controls are included. Comparisons have seven explained editorial ratings and further qualitative descriptions.
+Release `7eb1e7c9d96f` is live and verified. Pages run 43305245650 succeeded. All 48 site samples and 19 speech, city-page and audio-file samples match the tested artifact.
 
-Release `33e920cbab96` is live on GitHub Pages. Deployment run 42508762817 succeeded, the public archive checksum matches the tested build, and 49 public page/asset samples passed. The site does not depend on a local server or an open browser tab.
+Native speech is available on the London, Dublin, Berlin and Stockholm city pages and the listening page. Six other first-round cities still need verified native-language speech. Soundscapes are excluded. Each sample identifies speaker origins, recording location, dates, sources and reuse rights. Opus and AAC audio load only when requested.
 
-## Saved files
+Maps include street detail, four basemaps, sourced overlays, historical night lights for 2012 and 2016, and an explorer containing 8,730 places. The site also includes the previously saved timelines for ten capitals and 27 calendar entries. The broader expansion remains in progress: additional recordings, timelines, map subjects and comparison improvements still need work.
 
-- `atlas-site.zip`: complete validated static website. Updating this file on main triggers the permanent Pages workflow.
-- `atlas-source.zip`: maintained source, saved English/Spanish content, packaged geography, build scripts and final audit/continuation instructions. Unzip and read README.md, PROJECT-STATUS.md and RELEASE-REPORT.md. Original task attachment and historical screenshots remain in local Git history.
-- `.github/workflows/pages.yml`: established permanent publication workflow.
+`atlas-site.zip` is the exact static website. Updating it triggers the established Pages workflow. `atlas-source.zip` contains the maintained code, saved bilingual content, geographic and recording evidence, audit reports and continuation instructions. Unzip it and read README.md, AGENTS.md and PROJECT-STATUS.md.
 
-The strict build and reader audit pass for all 417 profiles and 1,112 routes. All 18,963 prose fields are present in both languages. The final source sweep covers 2,425 URLs; blocked/transient sources and missing comparable population values are documented honestly. Scores are qualitative editorial judgments, not measured rankings.
-
-## Continue development
-
-Install the locked dependencies with pnpm and use `pnpm build` and `pnpm test`. Requires Python 3.13+, Node 22+ and pnpm 11. Normal builds use saved JSON; translation models are optional and are not required. Keep the `/european-urban-atlas` base path for this host. The enclosed README.md explains content maintenance, attribution and the authorized publishing flow.
+The live site does not depend on a local server or an open browser.
